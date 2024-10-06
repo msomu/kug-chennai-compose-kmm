@@ -1,0 +1,10 @@
+query GetAllSessions {
+    sessions {
+        time
+        session
+        rooms {
+            roomId
+            roomName
+        }
+    }
+}
